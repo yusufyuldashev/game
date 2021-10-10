@@ -99,8 +99,8 @@ const app = Vue.createApp({
        },
        addLogMessages(who,what,value){
         this.logMessages.unshift({
-          actionBy:who,
-          actionType:what,
+          actionBy:who,  
+          actionType:what,  
           actionValue:value
         })
        }
